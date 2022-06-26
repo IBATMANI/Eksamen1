@@ -11,7 +11,7 @@ li {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
     background-color: grey;
@@ -19,7 +19,23 @@ header {
 
 .logo  {
     cursor: pointer;
-    margin-right: auto;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu li {
+    transition: all 0.3s ease 0s;
+}
+
+.menu li:hover {
+    color: yellow;
 }
 
 main {
