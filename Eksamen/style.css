@@ -34,6 +34,11 @@ main {
     padding: 100% 5%;
 }
 
+h1 {
+    font-size: 40px;
+    color: yellow;
+} 
+
 @media only screen and (min-width: 768px) {
 main {
     background-image: url('abbag.jpg');
