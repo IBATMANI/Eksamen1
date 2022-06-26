@@ -83,19 +83,162 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 327px 5%;
+    padding: 100% 5%;
 }
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 500px;
+    left: 5%;
+} 
+
+h2 {
+    font-size: 40px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 50px;
+    left: 5%;
+} 
+
+button {
+    font-size: 30px;
+    font-style: bold;
+    color: wheat;
+    position: fixed;
+    bottom: 300px;
+    left: 5%;
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
     main {
-        background-image: url('abbag.jpg');
+        background-image: url('ablaptop.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        padding: 327px 5%;
+        padding: 100% 5%;
     }
+
+    h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 500px;
+    left: 5%;
+} 
+
+h2 {
+    font-size: 40px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 50px;
+    left: 5%;
+} 
+
+button {
+    font-size: 40px;
+    font-style: bold;
+    color: wheat;
+    position: fixed;
+    bottom: 300px;
+    left: 5%;
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+
+}
+@media only screen and (min-width: 1440px) {
+    main {
+        background-image: url('ablaptop.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 100% 5%;
     }
+
+    h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 550px;
+    left: 5%;
+    display: flex;
+    
+} 
+
+h2 {
+    font-size: 40px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 50px;
+    left: 5%;
+} 
+
+button {
+    font-size: 40px;
+    font-style: bold;
+    color: wheat;
+    position: fixed;
+    bottom: 200px;
+    left: 5%;
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+
+}
 
 footer {
     background-color: black;
