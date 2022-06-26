@@ -80,8 +80,9 @@ p {
     } 
     .port {
         width: 100%;
-       
+        max-width: 425px;
         display: flex;
+        -ms-flex-item-align: auto;
     }
 
     p {
