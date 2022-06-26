@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -6,7 +12,8 @@ header {
     background-color: grey;
 }
 
-.logo img {
+.logo  {
+    cursor: pointer;
     margin-right: auto;
 }
 
