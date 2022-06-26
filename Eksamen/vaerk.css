@@ -72,6 +72,89 @@ main {
     flex: 1;
 }
 
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container3 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box5 {
+    flex: 1;   
+}
+
+.box6 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container4 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box7 {
+    flex: 1;   
+}
+
+.box8 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container5 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box9 {
+    flex: 1;   
+}
+
+.box10 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container6 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box11 {
+    flex: 1;   
+}
+
+.box12 {
+    padding: 0 5%;
+    flex: 1;
+}
 
 img {
     width: 100%;
@@ -138,7 +221,91 @@ hr {
         padding: 0 5%;
         flex: 1;
     }
+
+    .container3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
     
+    .container3 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box5 {
+        flex: 1;   
+    }
+    
+    .box6 {
+        padding: 0 5%;
+        flex: 1;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container4 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box7 {
+        flex: 1;   
+    }
+    
+    .box8 {
+        padding: 0 5%;
+        flex: 1;
+    }
+    
+    .container5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container5 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box9 {
+        flex: 1;   
+    }
+    
+    .box10 {
+        padding: 0 5%;
+        flex: 1;
+    }
+
+    .container6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container6 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box11 {
+        flex: 1;   
+    }
+    
+    .box12 {
+        padding: 0 5%;
+        flex: 1;
+    }
+
     img {
         width: 100%;
         max-width: 425;
