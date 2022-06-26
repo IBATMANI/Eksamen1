@@ -26,75 +26,136 @@ header {
     padding: 0px 5px;
 }
 
-main{
-    padding: 0px 5%;
+main {
+    padding: 0 5%;
 }
-.adobe {
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container1 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box1 {
+    flex: 1;   
+}
+
+.box2 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container2 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box3 {
+    flex: 1;   
+}
+
+.box4 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+img {
     width: 100%;
-    max-width: 425px;
-    align-self: center;
+    max-width: 425;
 }
 
-.port {
-    width: 100%;
-    max-width: 425px;
-    align-self: center;
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;  
 }
-
-h1 {
-    font-size: 50px;
-    font-style: bold;
-    color: black;
-    text-align: center;
-    
-} 
-
-h2 {
-    font-size: 20px;
-    font-style: bold;
-    color: black;
-    text-align: left;
-} 
 
 p {
     text-align: justify;
 }
 
+hr {
+    margin: 5%;
+}
+
 @media only screen and (min-width: 768px) {
     main {
-        padding: 0px 5%;
+        padding: 0 5%;
     }
-
-    h1 {
-        font-size: 50px;
-        font-style: bold;
-        color: black;
-        text-align: center;
-    } 
-
-    h2 {
-        font-size: 20px;
-        font-style: bold;
-        color: black;
-        text-align: left;
-    } 
-    .port {
-        width: 100%;
-        max-width: 425px;
+    
+    .container1 {
         display: flex;
-        -ms-flex-item-align: auto;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container1 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box1 {
+        flex: 1;   
+    }
+    
+    .box2 {
+        padding: 0 5%;
+        flex: 1;
     }
 
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container2 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box3 {
+        flex: 1;   
+    }
+    
+    .box4 {
+        padding: 0 5%;
+        flex: 1;
+    }
+    
+    img {
+        width: 100%;
+        max-width: 425;
+    }
+    
+    img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s;  
+    }
+    
     p {
         text-align: justify;
     }
     
-    .adobe {
-        width: 100%;
-        max-width: 425px;
-        align-self: center;
+    hr {
+        margin: 5%;
     }
-
 }
 
 
