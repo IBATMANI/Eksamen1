@@ -5,7 +5,7 @@
 }
 
 li {
-    font-size: 16px;
+    font-size: 1px;
     text-decoration: none;
 }
 
@@ -13,12 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 10px 5%;
     background-color: grey;
-}
-
-.logo  {
-    cursor: pointer;
 }
 
 .menu {
@@ -27,21 +23,15 @@ header {
 
 .menu li {
     display: inline-block;
-    padding: 0px 20px;
-}
-
-.menu li {
-    transition: all 0.3s ease 0s;
-}
-
-.menu li:hover {
-    color: yellow;
+    padding: 0px 5px;
 }
 
 main {
     background-color: blue;
+    padding: 100px 5%;
 }
 
 footer {
     background-color: grey;
+    padding: 10px 5%;
 }
