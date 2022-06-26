@@ -27,8 +27,21 @@ header {
 }
 
 main {
-    background-color: blue;
-    padding: 100px 5%;
+    background-image: url('abmobil.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100% 5%;
+}
+
+@media only screen and (min-width: 768px) {
+main {
+    background-image: url('abbag.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 327px 5%;
+}
 }
 
 footer {
