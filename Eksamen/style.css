@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+li {
+    font-size: 16px;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
