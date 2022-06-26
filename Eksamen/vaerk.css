@@ -34,6 +34,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0% 5%;
 }
 
 .container1 div {
@@ -42,13 +43,120 @@ main {
 }
 
 .box1 {
-    
-    
+    flex: 1;   
 }
 
 .box2 {
-    width: fit-content;
+    padding: 0 5%;
+    flex: 1;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.container2 div {
+    border: 0px;
+    padding: 5% 5%;
+}
+
+.box3 {
+    flex: 1;   
+}
+
+.box4 {
+    padding: 0 5%;
+    flex: 1;
+}
+
+
+img {
+    width: 100%;
+    max-width: 425;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;  
+}
+
+p {
+    text-align: justify;
+}
+
+hr {
+    margin: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        padding: 0 5%;
+    }
     
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container1 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box1 {
+        flex: 1;   
+    }
+    
+    .box2 {
+        padding: 0 5%;
+        flex: 1;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    
+    .container2 div {
+        border: 0px;
+        padding: 5% 5%;
+    }
+    
+    .box3 {
+        flex: 1;   
+    }
+    
+    .box4 {
+        padding: 0 5%;
+        flex: 1;
+    }
+    
+    img {
+        width: 100%;
+        max-width: 425;
+    }
+    
+    img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s;  
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    hr {
+        margin: 5%;
+    }
 }
 
 footer {
