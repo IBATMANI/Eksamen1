@@ -36,6 +36,7 @@ main {
 
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: bold;
     color: whitesmoke;
@@ -45,6 +46,7 @@ h1 {
 } 
 
 h2 {
+    font-family:'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: whitesmoke;
@@ -54,6 +56,7 @@ h2 {
 } 
 
 button {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-style: bold;
     color: wheat;
@@ -87,6 +90,7 @@ main {
 }
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: bold;
     color: whitesmoke;
@@ -96,6 +100,7 @@ h1 {
 } 
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: whitesmoke;
@@ -105,6 +110,7 @@ h2 {
 } 
 
 button {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-style: bold;
     color: wheat;
@@ -141,6 +147,7 @@ button:hover {
     }
 
     h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: bold;
     color: whitesmoke;
@@ -150,6 +157,7 @@ button:hover {
 } 
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: whitesmoke;
@@ -159,6 +167,7 @@ h2 {
 } 
 
 button {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: wheat;
@@ -194,6 +203,7 @@ button:hover {
     }
 
     h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: bold;
     color: whitesmoke;
@@ -205,6 +215,7 @@ button:hover {
 } 
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: whitesmoke;
@@ -214,6 +225,7 @@ h2 {
 } 
 
 button {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
     color: wheat;

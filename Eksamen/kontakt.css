@@ -51,6 +51,11 @@ main {
     flex: 1;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
 p {
     text-align: justify;
 }
@@ -104,6 +109,11 @@ textarea {
         flex: 1;
     }
 
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+
     p {
         text-align: justify;
     }
@@ -152,6 +162,11 @@ textarea {
     .box2 {
         padding: 5% 5%;
         flex: 1;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
     }
 
     p {
