@@ -26,6 +26,10 @@ header {
     padding: 0px 5px;
 }
 
+main {
+    padding: 5% 5%;
+}
+
 footer {
     background-color: black;
     padding: 10px 5%;
