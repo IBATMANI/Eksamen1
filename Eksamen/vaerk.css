@@ -170,6 +170,8 @@ img:hover{
 
 p {
     text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
 }
 
 hr {
@@ -179,6 +181,7 @@ hr {
 h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    color: #121212;
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,6 +329,8 @@ h2{
     
     p {
         text-align: justify;
+        font-family: Helvetica;
+        font-size: 16px;
     }
     
     hr {
@@ -335,6 +340,7 @@ h2{
     h2{
         font-family: 'Times New Roman', Times, serif;
         font-size: 40px;
+        color: #121212;
     }
 }
 

@@ -170,7 +170,7 @@ button {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
-    color: wheat;
+    color: #FBFBF4;
     position: fixed;
     bottom: 300px;
     left: 5%;
@@ -183,12 +183,12 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
-    background-color: red;
+    background-color: blue;
 }
 
 button:hover {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #121212;
+    color:#FBFBF4;
   }
 
 

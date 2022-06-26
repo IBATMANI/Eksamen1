@@ -81,6 +81,7 @@ img {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    color: #121212;
 }
 
 p {
@@ -147,10 +148,13 @@ hr {
     h1 {
         font-family: 'Times New Roman', Times, serif;
         font-size: 40px;
+        color: #121212;
     }
     
     p {
         text-align: justify;
+        font-family: Helvetica;
+        font-size: 16px;
     }
     
     hr {
@@ -162,6 +166,6 @@ hr {
 footer {
     background-color: #121212;
     padding: 10px 5%;
-    color: whitesmoke;
+    color: #FBFBF4;
     text-align: left;
 }
