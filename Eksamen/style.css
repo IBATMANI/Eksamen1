@@ -34,14 +34,52 @@ main {
     padding: 100% 5%;
 }
 
+
 h1 {
-    font-size: 40px;
-    color: yellow;
+    font-size: 50px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 500px;
+    left: 5%;
 } 
+
+h2 {
+    font-size: 40px;
+    font-style: bold;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 50px;
+    left: 5%;
+} 
+
+button {
+    font-size: 30px;
+    font-style: bold;
+    color: wheat;
+    position: fixed;
+    bottom: 300px;
+    left: 20%;
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
 
 @media only screen and (min-width: 768px) {
 main {
-    background-image: url('abbag.jpg');
+    background-image: url('abtablet.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -49,7 +87,19 @@ main {
 }
 }
 
+@media only screen and (min-width: 1024px) {
+    main {
+        background-image: url('abbag.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 327px 5%;
+    }
+    }
+
 footer {
-    background-color: grey;
+    background-color: black;
     padding: 10px 5%;
+    color: whitesmoke;
+    text-align: left;
 }
