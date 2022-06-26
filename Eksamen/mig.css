@@ -26,6 +26,39 @@ header {
     padding: 0px 5px;
 }
 
+.adobe {
+    width: 100%;
+    max-width: 425px;
+    align-self: center;
+}
+
+.port {
+    width: 100%;
+    max-width: 425px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: black;
+    text-align: center;
+    
+} 
+
+h2 {
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    text-align: left;
+    padding: 0px 5%;
+} 
+
+p {
+    text-align: justify;
+    padding: 0px 5%;
+}
+
 footer {
     background-color: black;
     padding: 10px 5%;
