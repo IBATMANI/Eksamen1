@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background-color: black;
+    background-color: #121212;
 }
 
 .menu {
@@ -28,6 +28,7 @@ header {
 
 main {
     padding: 0 5%;
+    background-color: #fbfbf4;
 }
 
 .container1 {
@@ -86,6 +87,7 @@ textarea {
 @media only screen and (min-width: 768px) {
     main {
         padding: 0 5%;
+        background-color: #fbfbf4;
     }
     
     .container1 {
@@ -141,6 +143,7 @@ textarea {
 @media only screen and (min-width: 1440px) {
     main {
         padding: 0 5%;
+        background-color: #fbfbf4;
     }
     
     .container1 {
@@ -196,8 +199,8 @@ textarea {
 }
 
 footer {
-    background-color: black;
+    background-color: #121212;
     padding: 10px 5%;
-    color: whitesmoke;
+    color: #FBFBF4;
     text-align: left;
 }
