@@ -183,7 +183,6 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
-    background-color: blue;
 }
 
 button:hover {
@@ -206,7 +205,7 @@ button:hover {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-style: bold;
-    color: whitesmoke;
+    color: #121212;
     position: fixed;
     bottom: 550px;
     left: 5%;
@@ -218,7 +217,7 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-style: bold;
-    color: whitesmoke;
+    color: #121212;
     position: fixed;
     bottom: 50px;
     left: 5%;
