@@ -72,7 +72,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
-    background-color: red;
+    background-color: #FBFBF4;
 }
 
 button:hover {
@@ -126,7 +126,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
-    background-color: red;
+    background-color: #FBFBF4;
 }
 
 button:hover {
@@ -183,6 +183,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
+    background-color: #FBFBF4;
 }
 
 button:hover {
@@ -240,7 +241,7 @@ button {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
-    background-color: red;
+    background-color: #FBFBF4;
 }
 
 button:hover {
