@@ -63,9 +63,6 @@ p {
     font-size: 16px;
 }
 
-hr {
-    margin: 5%;
-}
 
 form{
     padding:  5%;
@@ -77,13 +74,11 @@ input {
     margin: 1% 1%;
     width: 100px;
     justify-content: baseline;
-    color: black;
 }
 textarea {
     border-radius: 20px;
     padding: 1% 5%;
     margin: 1% 1%;
-    color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -124,10 +119,6 @@ textarea {
         font-size: 16px;
     }
     
-    hr {
-        margin: 5%;
-    }
-
     form{
         padding:  5%;
     }
@@ -160,6 +151,7 @@ textarea {
     .container1 div {
         border: 0px;
         padding: 5% 5%;
+        margin-bottom: 20%;
     }
     
     .box1 {
@@ -180,10 +172,6 @@ textarea {
         text-align: justify;
         font-family: Helvetica;
         font-size: 16px;
-    }
-    
-    hr {
-        margin: 5%;
     }
 
     form{
