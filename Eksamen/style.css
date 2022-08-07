@@ -27,7 +27,7 @@ header {
 }
 
 main {
-    background-image: url('abmobil.png');
+    background-image: url('ab.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -41,7 +41,7 @@ h1 {
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 500px;
+    bottom: 550px;
     left: 5%;
 } 
 
@@ -61,8 +61,8 @@ button {
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 300px;
-    left: 20%;
+    bottom: 200px;
+    left: 5%;
     border: none;
     padding: 16px 16px;
     text-align: center;
@@ -82,7 +82,7 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
 main {
-    background-image: url('abtablet.png');
+    background-image: url('ab.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -95,7 +95,7 @@ h1 {
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 500px;
+    bottom: 550px;
     left: 5%;
 } 
 
@@ -115,7 +115,7 @@ button {
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 300px;
+    bottom: 200px;
     left: 5%;
     border: none;
     padding: 16px 16px;
@@ -139,7 +139,7 @@ button:hover {
 
 @media only screen and (min-width: 1024px) {
     main {
-        background-image: url('ablaptop.png');
+        background-image: url('ab.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -152,7 +152,7 @@ button:hover {
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 500px;
+    bottom: 550px;
     left: 5%;
 } 
 
@@ -168,11 +168,11 @@ h2 {
 
 button {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     font-style: bold;
     color: #121212;
     position: fixed;
-    bottom: 300px;
+    bottom: 200px;
     left: 5%;
     border: none;
     padding: 16px 16px;
@@ -195,7 +195,7 @@ button:hover {
 }
 @media only screen and (min-width: 1440px) {
     main {
-        background-image: url('ablaptop.png');
+        background-image: url('ab.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -226,7 +226,7 @@ h2 {
 
 button {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     font-style: bold;
     color: #121212;
     position: fixed;
