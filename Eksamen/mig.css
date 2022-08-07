@@ -89,7 +89,7 @@ p {
 }
 
 hr {
-    margin: 5%;
+    margin: -3%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -158,7 +158,7 @@ hr {
     }
     
     hr {
-        margin: 5%;
+        margin: -3%;
     }
 }
 
